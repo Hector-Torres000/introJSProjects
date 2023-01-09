@@ -1,0 +1,38 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+}
+/*-----???-----*/
+body {
+  text-align: center;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+input,
+body {
+  display: block;
+}
+input {
+  margin: auto auto;
+}
+button {
+  margin-top: 1rem;
+}
+.showResult {
+  display: block;
+  margin-top: 2rem;
+  font-size: 3rem;
+  text-decoration: underline;
+}
