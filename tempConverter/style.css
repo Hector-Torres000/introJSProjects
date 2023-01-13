@@ -1,0 +1,34 @@
+html {
+  box-sizing: border-box;
+}
+*::after,
+*::before,
+* {
+  box-sizing: inherit;
+}
+/*-----body-----*/
+body {
+  text-align: center;
+}
+/*---main---*/
+/* main,
+main * {
+  border: solid 2px black;
+} */
+main {
+  height: 200px;
+  display: grid;
+  grid-template-columns: repeat(2, 40%);
+  justify-content: center;
+}
+main span {
+  display: block;
+  height: 70px;
+  width: 30%;
+  margin: auto auto;
+}
+/*--forms--*/
+form * {
+  display: block;
+  margin: 10px auto;
+}
