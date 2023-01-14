@@ -1,0 +1,126 @@
+
+/*default layout */
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+/*------body------*/
+body{
+    text-align: center;
+}
+body h1{
+    font-size: 3rem;
+}
+/*----body main----*/
+
+/*--body main level1Starter--*/
+.level1Starters{
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    justify-content: center;
+    font-size: 2rem;
+}
+.level1Starters span{
+    display: block;
+}
+.level1Starters div{
+    height: 70vh;
+    border: solid 2px black;
+    margin: 5%;
+}
+
+.level1Starters img{
+    width: 90%;
+    height: 80%;
+    object-fit: contain;
+    margin: auto auto;
+}
+.level1Starters span{
+    margin-top: 5%;
+}
+
+
+/*-------JS Classes-------*/
+.hidden{
+    display: none;
+}
+/**--tables--**/
+.tables{
+    margin: 0;
+    padding: 0;
+}
+table, table *{
+    border: solid 2px black;
+    border-collapse: collapse;
+}
+table{
+    height: 70vh;
+    width: 100%;
+    margin: 2.3%;
+    table-layout: fixed;
+}
+.level1Starters table div{
+    height: 3rem;
+}
+
+/*turtwig*/
+#turtwigTable .hp{
+    width: calc(300% * 55/255);
+}
+#turtwigTable .atk{
+    width: calc(300% * 68/255);
+}
+#turtwigTable .def{
+    width: calc(300% * 64/255);
+}
+#turtwigTable .spAtk{
+    width: calc(300% * 45/255);
+}
+#turtwigTable .spDef{
+    width: calc(300% * 55/255);
+}
+#turtwigTable .spd{
+    width: calc(300% * 31/255);
+}
+
+/*piplup*/
+#piplupTable .hp{
+    width: calc(300% * 53/255);
+}
+#piplupTable .atk{
+    width: calc(300% * 51/255);
+}
+#piplupTable .def{
+    width: calc(300% * 53/255);
+}
+#piplupTable .spAtk{
+    width: calc(300% * 61/255);
+}
+#piplupTable .spDef{
+    width: calc(300% * 56/255);
+}
+#piplupTable .spd{
+    width: calc(300% * 40/255);
+}
+/*chimchar*/
+#chimcharTable .hp{
+    width: calc(300% * 44/255);
+}
+#chimcharTable .atk{
+    width: calc(300% * 58/255);
+}
+#chimcharTable .def{
+    width: calc(300% * 44/255);
+}
+#chimcharTable .spAtk{
+    width: calc(300% * 58/255);
+}
+#chimcharTable .spDef{
+    width: calc(300% * 44/255);
+}
+#chimcharTable .spd{
+    width: calc(300% * 61/255);
+}
